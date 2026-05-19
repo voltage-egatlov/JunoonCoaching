@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── Junoon Brand Colors ── */
+  --color-clay:       #C4724A;
+  --color-saffron:    #D4935A;
+  --color-turmeric:   #E8B870;
+  --color-ivory:      #F5F0E8;
+  --color-cream:      #FAF7F2;
+  --color-bark:       #2C2118;
+  --color-soil:       #4A3728;
+  --color-driftwood:  #8C7B6B;
+  --color-linen:      #EDE8DF;
+  --color-parchment:  #FEFCF9;
+  --color-sage:       #7A9B7A;
+  --color-moss:       #4D6B4D;
+  --color-indigo:     #3D4A6B;
+  --color-midnight:   #1E2740;
+  --color-blush:      #D4A89A;
+
+  /* ── Typography ── */
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans:    var(--font-dm-sans), system-ui, sans-serif;
+  --font-mono:    var(--font-dm-mono), 'Courier New', monospace;
+
+  /* ── Spacing (8pt base) ── */
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+  --spacing-26: 6.5rem;
+  --spacing-30: 7.5rem;
+
+  /* ── Max-width ── */
+  --max-w-site: 1200px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Base ── */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF7F2;
+  color: #2C2118;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ── Eyebrow / label text ──
+   Replaces the repeated inline style={{ fontFamily: "...", letterSpacing: "..." }}
+   pattern used across every page's label/overline elements. Using a class keeps
+   the HTML smaller and lets the browser cache the rule once. */
+.eyebrow {
+  font-family: var(--font-dm-mono), monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #C4724A;
+}
+
+/* ── Mono label — DM Mono with wide tracking, no colour override ──
+   For nav links, footer labels, and UI chrome that needs mono + tracking
+   but not necessarily clay colour. Avoids repeating the inline style combo. */
+.mono-label {
+  font-family: var(--font-dm-mono), monospace;
+  letter-spacing: 0.15em;
+}
+
+/* ── Display headings ── */
+.font-display {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+/* ── Horizontal rule ── */
+.rule {
+  border: none;
+  border-top: 1px solid #EDE8DF;
+}
+
+/* ── Smooth image loading ── */
+img {
+  display: block;
+}
+
+/* ── Link reset ── */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+  ── Reduced-motion safety net ──
+  scroll-behavior: smooth and the hover:scale-105 / transition-transform
+  animations throughout the site can cause discomfort for users with vestibular
+  disorders and are genuinely slower on low-end devices. This block respects the
+  OS-level preference and disables animations entirely for those users.
+*/
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
