@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
     // intermediate sizes that bloat the image optimisation cache.
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [48, 64, 128, 256, 384],
+
+    // Allow Next.js Image to optimise photos served from the Pexels CDN.
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+        pathname: "/photos/**",
+      },
+    ],
   },
 
   async headers() {
