@@ -11,16 +11,16 @@ interface SectionHeaderProps {
   /** Main heading text. Can be a ReactNode to allow <em> italics etc. */
   heading: ReactNode;
   /**
-   * "inline" — label and heading sit on the same baseline (flex-row).
+   * "inline" - label and heading sit on the same baseline (flex-row).
    *   Best for section intros where space is tight.
-   * "stacked" — label sits above the heading on its own line.
+   * "stacked" - label sits above the heading on its own line.
    *   Best for hero-style section openers and CTAs.
    * Defaults to "inline".
    */
   layout?: Layout;
   /**
-   * "light" — label in clay, heading in bark. For cream/ivory/parchment backgrounds.
-   * "dark"  — label in turmeric, heading in ivory. For bark/soil backgrounds.
+   * "light" - label in clay, heading in bark. For cream/ivory/parchment backgrounds.
+   * "dark"  - label in turmeric, heading in ivory. For bark/soil backgrounds.
    * Defaults to "light".
    */
   theme?: Theme;

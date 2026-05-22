@@ -8,12 +8,12 @@ import SectionHeader from "./components/SectionHeader";
 import DashList from "./components/DashList";
 
 export const metadata: Metadata = {
-  title: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+  title: "Junoon Coaching - Elite Fitness Coaching for South Asians",
   description:
     "Elite online fitness coaching for Indians and South Asians. Lose weight, build muscle, and get healthy without giving up your culture or the foods you love. NASM-certified coaches who understand your world.",
   alternates: { canonical: "https://junooncoaching.com" },
   openGraph: {
-    title: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+    title: "Junoon Coaching - Elite Fitness Coaching for South Asians",
     description:
       "Online fitness coaching built for Indians and South Asians. Personalised plans, cultural understanding, and real results.",
     images: [{ url: "/images/og-image.webp", width: 1200, height: 630 }],
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 const testimonials = [
   {
     quote:
-      "Working with Arjav has been absolutely transformative. I lost over 10 kg — a goal I had struggled to achieve for years. He understood my lifestyle and crafted a plan that actually worked.",
+      "Working with Arjav has been absolutely transformative. I lost over 10 kg - a goal I had struggled to achieve for years. He understood my lifestyle and crafted a plan that actually worked.",
     name: "Sagar Pandya",
     age: 28,
     img: "/images/IMG_1005.webp",
   },
   {
     quote:
-      "At 52 and mostly sedentary, I needed a realistic plan. Arjav delivered exactly that — clear, easy-to-follow workouts and nutrition. In just 4–6 weeks I saw measurable results.",
+      "At 52 and mostly sedentary, I needed a realistic plan. Arjav delivered exactly that - clear, easy-to-follow workouts and nutrition. In just 4–6 weeks I saw measurable results.",
     name: "Baljinder Sandhu",
     age: 52,
     img: "/images/IMG_3802.webp",
@@ -70,12 +70,12 @@ const pillars = [
   {
     number: "01",
     title: "Family-First Fitness",
-    desc: "We build plans that fit around your family commitments, cultural obligations, and busy life — not the other way around. Your health journey should strengthen relationships, not strain them.",
+    desc: "We build plans that fit around your family commitments, cultural obligations, and busy life - not the other way around. Your health journey should strengthen relationships, not strain them.",
   },
   {
     number: "02",
     title: "Food Without Guilt",
-    desc: "Desi food is not the enemy. Our coaches understand dal, roti, biryani, and everything in between. We work with your cultural diet to create sustainable, enjoyable nutrition — not restriction.",
+    desc: "Desi food is not the enemy. Our coaches understand dal, roti, biryani, and everything in between. We work with your cultural diet to create sustainable, enjoyable nutrition - not restriction.",
   },
   {
     number: "03",
@@ -87,7 +87,7 @@ const pillars = [
 const whyJunoonFeatures = [
   {
     title: "Culturally informed nutrition",
-    desc: "Plans built around Indian and South Asian foods — dal, roti, sabzi and all — not restrictive Western templates.",
+    desc: "Plans built around Indian and South Asian foods - dal, roti, sabzi and all - not restrictive Western templates.",
   },
   {
     title: "Personalised programming",
@@ -99,14 +99,14 @@ const whyJunoonFeatures = [
   },
   {
     title: "Daily accountability",
-    desc: "Your coach checks in, adjusts your plan, and keeps you motivated — through the tough weeks too.",
+    desc: "Your coach checks in, adjusts your plan, and keeps you motivated - through the tough weeks too.",
   },
 ];
 
 const faqs = [
   {
     q: "Do I have to give up Indian food?",
-    a: "Absolutely not. Our plans are built around South Asian diets — we adapt dal, roti, sabzi, and your family recipes to fit your goals. Food is culture, and we respect that.",
+    a: "Absolutely not. Our plans are built around South Asian diets - we adapt dal, roti, sabzi, and your family recipes to fit your goals. Food is culture, and we respect that.",
   },
   {
     q: "How quickly will I see results?",
@@ -114,7 +114,7 @@ const faqs = [
   },
   {
     q: "Is this for men and women?",
-    a: "Yes — we coach both. Plans are fully personalised to your body, goals, hormonal considerations, and lifestyle. Gender-specific adjustments are part of our process.",
+    a: "Yes - we coach both. Plans are fully personalised to your body, goals, hormonal considerations, and lifestyle. Gender-specific adjustments are part of our process.",
   },
   {
     q: "What does a typical week look like?",
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     q: "I have a very busy schedule. Can this still work for me?",
-    a: "That's exactly who we designed this for. Short workouts, flexible meal timing, and plans that adapt to your week — not the other way around.",
+    a: "That's exactly who we designed this for. Short workouts, flexible meal timing, and plans that adapt to your week - not the other way around.",
   },
   {
     q: "How do I get started?",
@@ -159,7 +159,7 @@ export default function HomePage() {
             Coaching
           </h1>
           <p className="text-ivory/70 text-base md:text-lg font-light max-w-lg leading-relaxed mb-8">
-            We&apos;re on a mission to redefine what fitness looks like for the South Asian community. Build a strong, confident body — without giving up the foods you love.
+            We&apos;re on a mission to redefine what fitness looks like for the South Asian community. Build a strong, confident body - without giving up the foods you love.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button href="https://form.typeform.com/to/LrpoZN7n">

@@ -8,7 +8,7 @@ import PageHero from "../components/PageHero";
 export const metadata: Metadata = {
   title: "Our Coaches",
   description:
-    "Meet the Junoon Coaching team — NASM-certified coaches who understand South Asian culture, food, and lifestyle. Expert guidance for Indians worldwide.",
+    "Meet the Junoon Coaching team - NASM-certified coaches who understand South Asian culture, food, and lifestyle. Expert guidance for Indians worldwide.",
   alternates: { canonical: "https://junooncoaching.com/coaches" },
   openGraph: {
     title: "Our Coaches | Junoon Coaching",
@@ -24,7 +24,7 @@ const coaches = [
     role: "Founder & Head Coach",
     cert: "NASM Certified Personal Trainer",
     img: "/images/IMG_3793.webp",
-    bio: "Arjav started his fitness journey at 16 years old. After being overweight his entire childhood, he set out on a 60 lb weight loss journey that changed his life. Along the way he experienced extreme weight fluctuation, disordered eating, and every mistake a beginner could make. He turned those hard lessons into a coaching philosophy — helping others avoid the same pitfalls and build a relationship with fitness that actually lasts.",
+    bio: "Arjav started his fitness journey at 16 years old. After being overweight his entire childhood, he set out on a 60 lb weight loss journey that changed his life. Along the way he experienced extreme weight fluctuation, disordered eating, and every mistake a beginner could make. He turned those hard lessons into a coaching philosophy - helping others avoid the same pitfalls and build a relationship with fitness that actually lasts.",
     extended: "Founded in 2022, Junoon Coaching was built from Arjav's lived experience navigating South Asian culture, family pressures, and a food environment that wasn't designed with his community in mind. His NASM certification, combined with that cultural fluency, is what makes his approach uniquely effective for Indian and South Asian clients worldwide.",
     handles: [
       { label: "Instagram", href: "http://instagram.com/arjavchhabra", display: "@arjavchhabra" },
@@ -35,7 +35,7 @@ const coaches = [
     role: "Coach",
     cert: "Specialisation: Hypertrophy & South Indian Nutrition",
     img: "/images/coaches-hero.webp",
-    bio: "Bhargava began his fitness journey in powerlifting and transitioned into bodybuilding — a discipline he has been training in for over five years. He brings deep practical knowledge of South Indian diets and how to optimise protein and macros within those eating patterns.",
+    bio: "Bhargava began his fitness journey in powerlifting and transitioned into bodybuilding - a discipline he has been training in for over five years. He brings deep practical knowledge of South Indian diets and how to optimise protein and macros within those eating patterns.",
     extended: "Growing up with multiple food allergies, Bhargava learned early how to build a high-performance diet with significant constraints. That experience makes him especially skilled at crafting nutrition plans for clients with dietary restrictions, intolerances, or specific regional food preferences.",
     handles: [],
   },
@@ -44,7 +44,7 @@ const coaches = [
     role: "Director of Operations",
     cert: "Tufts University · Business Consulting",
     img: "/images/coaches-hero.webp",
-    bio: "Tej oversees the operational side of Junoon Coaching — ensuring that every client experience is seamless, from onboarding through to ongoing coaching support. Based in New York, he brings a consulting mindset to how the business runs.",
+    bio: "Tej oversees the operational side of Junoon Coaching - ensuring that every client experience is seamless, from onboarding through to ongoing coaching support. Based in New York, he brings a consulting mindset to how the business runs.",
     extended: "A graduate of Tufts University, Tej is responsible for the systems and processes that let our coaches focus entirely on their clients. From client intake to weekly reporting, he ensures nothing falls through the cracks.",
     handles: [],
   },
@@ -53,7 +53,7 @@ const coaches = [
 const philosophy = [
   {
     label: "Understand first",
-    desc: "Every client starts with a deep intake process — lifestyle, diet, culture, goals, and health history. We don't prescribe before we understand.",
+    desc: "Every client starts with a deep intake process - lifestyle, diet, culture, goals, and health history. We don't prescribe before we understand.",
   },
   {
     label: "Adjust constantly",
@@ -61,7 +61,7 @@ const philosophy = [
   },
   {
     label: "Build for life",
-    desc: "The goal is independence. We give you the knowledge and habits to stay fit without a coach — even if you choose to keep one.",
+    desc: "The goal is independence. We give you the knowledge and habits to stay fit without a coach - even if you choose to keep one.",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function CoachesPage() {
       <section className="bg-cream py-10 md:py-14">
         <Container>
           <p className="font-display text-[clamp(1.05rem,2vw,1.35rem)] font-light text-soil leading-relaxed max-w-2xl">
-            Every coach on our team has lived experience navigating South Asian culture, food, and family pressures around health. We don&apos;t just understand the science — we understand your world.
+            Every coach on our team has lived experience navigating South Asian culture, food, and family pressures around health. We don&apos;t just understand the science - we understand your world.
           </p>
         </Container>
       </section>

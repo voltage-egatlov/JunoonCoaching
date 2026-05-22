@@ -7,7 +7,7 @@ import PageHero from "../components/PageHero";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Junoon Coaching — apply for coaching, reach us on Instagram, or email us directly. Elite fitness coaching for South Asians worldwide.",
+    "Get in touch with Junoon Coaching - apply for coaching, reach us on Instagram, or email us directly. Elite fitness coaching for South Asians worldwide.",
   alternates: { canonical: "https://junooncoaching.com/contact" },
   openGraph: {
     title: "Contact | Junoon Coaching",
@@ -49,7 +49,7 @@ const quickAnswers = [
   },
   {
     q: "Where are your coaches based?",
-    a: "We coach clients globally — online coaching only, so your location doesn't matter.",
+    a: "We coach clients globally - online coaching only, so your location doesn't matter.",
   },
   {
     q: "What does coaching include?",
@@ -73,7 +73,7 @@ export default function ContactPage() {
               Ready to start your journey?
             </h2>
             <p className="text-soil text-sm font-light leading-relaxed mb-7 max-w-md">
-              The best way to get started is to fill out our coaching application. We&apos;ll review your goals, background, and lifestyle — and match you with the right coach.
+              The best way to get started is to fill out our coaching application. We&apos;ll review your goals, background, and lifestyle - and match you with the right coach.
             </p>
             <Button href="https://form.typeform.com/to/LrpoZN7n" className="mb-10">
               Apply for Coaching →

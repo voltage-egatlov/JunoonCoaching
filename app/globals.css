@@ -52,7 +52,7 @@ body {
    Replaces the repeated inline style={{ fontFamily: "...", letterSpacing: "..." }}
    pattern used across every page's label/overline elements. Using a class keeps
    the HTML smaller and lets the browser cache the rule once.
-   NOTE: No colour is set here — use text-clay on light backgrounds and
+   NOTE: No colour is set here - use text-clay on light backgrounds and
    text-turmeric on dark (bark/soil) backgrounds for WCAG AA compliance. */
 .eyebrow {
   font-family: var(--font-dm-mono), monospace;
@@ -61,7 +61,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ── Mono label — DM Mono with wide tracking, no colour override ──
+/* ── Mono label - DM Mono with wide tracking, no colour override ──
    For nav links, footer labels, and UI chrome that needs mono + tracking
    but not necessarily clay colour. Avoids repeating the inline style combo. */
 .mono-label {
@@ -94,7 +94,7 @@ a {
 /*
   ── Dark-section text defaults ──
   When sections or containers have a dark background (bark or soil), inherited
-  text color falls back to the body's dark bark — making any un-colored child
+  text color falls back to the body's dark bark - making any un-colored child
   text invisible. Using :where() sets a zero-specificity override so the correct
   default (ivory) is inherited, but any explicit .text-* utility class on any
   element (same or child) always wins since utilities carry 0-1-0 specificity.

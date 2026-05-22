@@ -49,7 +49,7 @@ export default function Footer() {
               className="h-9 w-auto object-contain"
             />
             <p className="text-sm leading-relaxed text-driftwood max-w-xs">
-              Shifting the culture. Elite fitness coaching built for the South Asian community — blending cultural understanding with elite training.
+              Shifting the culture. Elite fitness coaching built for the South Asian community - blending cultural understanding with elite training.
             </p>
             <div className="flex items-center gap-4 mt-1">
               {socialLinks.map((s) => (

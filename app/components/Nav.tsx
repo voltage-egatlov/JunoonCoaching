@@ -35,7 +35,7 @@ export default function Nav() {
           />
         </Link>
 
-        {/* Desktop nav — only visible md+ */}
+        {/* Desktop nav - only visible md+ */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map(({ href, label }) => {
             const active = pathname === href;
@@ -53,14 +53,14 @@ export default function Nav() {
           })}
         </nav>
 
-        {/* Desktop CTA — wrapper controls visibility, Button has no hidden class */}
+        {/* Desktop CTA - wrapper controls visibility, Button has no hidden class */}
         <div className="hidden md:block">
           <Button href="https://form.typeform.com/to/LrpoZN7n" size="sm">
             Apply Now
           </Button>
         </div>
 
-        {/* Mobile hamburger — only visible below md */}
+        {/* Mobile hamburger - only visible below md */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden flex flex-col gap-1.5 p-1"

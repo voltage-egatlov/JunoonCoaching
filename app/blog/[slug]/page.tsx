@@ -5,12 +5,12 @@ import Link from "next/link";
 import Container from "../../components/Container";
 import Button from "../../components/Button";
 
-// Pexels CDN helper — all images free under the Pexels License (no attribution required).
+// Pexels CDN helper - all images free under the Pexels License (no attribution required).
 const PEXELS = (id: number) =>
   `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750`;
 
 /* ─────────────────────────────────────────────
-   Blog post data — full content for all 8 posts
+   Blog post data - full content for all 8 posts
 ───────────────────────────────────────────── */
 type Section =
   | { type: "p"; text: string }
@@ -50,29 +50,29 @@ const posts: Post[] = [
       { type: "h2", text: "Strategies" },
       {
         type: "p",
-        text: "One of the first things I remind clients is that it's not always easy to find healthy food options when you're traveling, and that's okay. There are a couple of ways to structure your day so you're still aligned with your goals, even if options are limited. For those in a bulking phase, things are a bit easier — eat at least three meals a day with solid portions, don't skip meals, and get enough protein where you can.",
+        text: "One of the first things I remind clients is that it's not always easy to find healthy food options when you're traveling, and that's okay. There are a couple of ways to structure your day so you're still aligned with your goals, even if options are limited. For those in a bulking phase, things are a bit easier - eat at least three meals a day with solid portions, don't skip meals, and get enough protein where you can.",
       },
       {
         type: "p",
-        text: "If you're in a fat loss or recomp phase, you'll want to be more strategic. What tends to work well is this: start your day with low carb, high protein and fat meals — something like eggs and avocado, or paneer with veggies. This keeps your hunger under control and prevents overeating. Do the same for lunch. Then at dinner, go ahead and include carbs and enjoy your free meal of the day. This approach lets you enjoy fun foods or eating out in the evenings without letting things spiral out of control.",
+        text: "If you're in a fat loss or recomp phase, you'll want to be more strategic. What tends to work well is this: start your day with low carb, high protein and fat meals - something like eggs and avocado, or paneer with veggies. This keeps your hunger under control and prevents overeating. Do the same for lunch. Then at dinner, go ahead and include carbs and enjoy your free meal of the day. This approach lets you enjoy fun foods or eating out in the evenings without letting things spiral out of control.",
       },
       {
         type: "p",
-        text: "Another thing that makes a big difference is keeping your movement high. Aim for at least 8,000 to 10,000 steps a day. You don't have to think of it as cardio — it's just a way to keep your energy up and your metabolism active. If you have access to a gym, even a quick 30-minute lift a few times during your trip can go a long way toward maintaining your strength.",
+        text: "Another thing that makes a big difference is keeping your movement high. Aim for at least 8,000 to 10,000 steps a day. You don't have to think of it as cardio - it's just a way to keep your energy up and your metabolism active. If you have access to a gym, even a quick 30-minute lift a few times during your trip can go a long way toward maintaining your strength.",
       },
       { type: "h2", text: "Snacking" },
       {
         type: "p",
-        text: "This is where most people fall off. It's not the main meals that get them — it's the constant grazing. Things like nuts, chips, desi snacks, or random sweets lying around can quietly blow your calorie intake out of the water. Try to stay away from these snacks. If you're genuinely hungry between meals, choose high satiety foods like Greek yogurt, fruit, or a scoop of protein.",
+        text: "This is where most people fall off. It's not the main meals that get them - it's the constant grazing. Things like nuts, chips, desi snacks, or random sweets lying around can quietly blow your calorie intake out of the water. Try to stay away from these snacks. If you're genuinely hungry between meals, choose high satiety foods like Greek yogurt, fruit, or a scoop of protein.",
       },
       { type: "h2", text: "The Bottom Line" },
       {
         type: "p",
-        text: "Avoid the all-or-nothing mentality. One off-plan meal doesn't ruin anything. But throwing in the towel for the entire week because of that one meal is where people go wrong. You don't have to crush every workout or log every macro to maintain your progress — you just have to do something. Even hitting your step goal, eating enough protein, and making decent choices is more than enough to keep your results intact.",
+        text: "Avoid the all-or-nothing mentality. One off-plan meal doesn't ruin anything. But throwing in the towel for the entire week because of that one meal is where people go wrong. You don't have to crush every workout or log every macro to maintain your progress - you just have to do something. Even hitting your step goal, eating enough protein, and making decent choices is more than enough to keep your results intact.",
       },
       {
         type: "p",
-        text: "And finally, don't forget to actually enjoy the experience. Travel is about creating memories, connecting with people, and living life. Do your best. Be mindful. You've worked hard to build these habits — travel doesn't have to break them.",
+        text: "And finally, don't forget to actually enjoy the experience. Travel is about creating memories, connecting with people, and living life. Do your best. Be mindful. You've worked hard to build these habits - travel doesn't have to break them.",
       },
     ],
   },
@@ -83,7 +83,7 @@ const posts: Post[] = [
     tag: "Culture",
     img: PEXELS(6455966),
     description:
-      "After coaching hundreds of South Asians, a clear trend has emerged. We're incredibly smart and driven in academics — but when it comes to our bodies, we lag behind. Here's why.",
+      "After coaching hundreds of South Asians, a clear trend has emerged. We're incredibly smart and driven in academics - but when it comes to our bodies, we lag behind. Here's why.",
     body: [
       {
         type: "p",
@@ -91,7 +91,7 @@ const posts: Post[] = [
       },
       {
         type: "p",
-        text: "We're lazy. Not lazy in the sense of being unproductive — we're incredibly smart, driven in academics, and often work the most complex jobs. But when it comes to taking care of our bodies, we lag behind. Badly.",
+        text: "We're lazy. Not lazy in the sense of being unproductive - we're incredibly smart, driven in academics, and often work the most complex jobs. But when it comes to taking care of our bodies, we lag behind. Badly.",
       },
       { type: "h2", text: "1. We Were Never Taught That Our Health Matters" },
       {
@@ -101,7 +101,7 @@ const posts: Post[] = [
       { type: "h2", text: "2. Getting Too Comfortable" },
       {
         type: "p",
-        text: "Most Indian households are centered around comfort. We eat the heaviest foods, sit a lot, and rest way more than we need to. Everything revolves around food — celebrations, stress relief, boredom, hospitality. The basics of movement and health just don't exist in our culture yet. We'd rather debate on what to eat for dinner tomorrow than dedicate time to exercise.",
+        text: "Most Indian households are centered around comfort. We eat the heaviest foods, sit a lot, and rest way more than we need to. Everything revolves around food - celebrations, stress relief, boredom, hospitality. The basics of movement and health just don't exist in our culture yet. We'd rather debate on what to eat for dinner tomorrow than dedicate time to exercise.",
       },
       { type: "h2", text: "3. We Make Too Many Excuses" },
       {
@@ -115,12 +115,12 @@ const posts: Post[] = [
       },
       {
         type: "p",
-        text: "Sound familiar? We are great at justifying inaction. We internalize everything, but rarely take action. We know what we should be doing, but we never do it. Yet we glorify struggle and sacrifice in all areas — except the gym.",
+        text: "Sound familiar? We are great at justifying inaction. We internalize everything, but rarely take action. We know what we should be doing, but we never do it. Yet we glorify struggle and sacrifice in all areas - except the gym.",
       },
       { type: "h2", text: "4. We Only Take Action When It's Too Late" },
       {
         type: "p",
-        text: "It's incredible how many of my clients come to me after experiencing health issues — diabetes scares, high LDL cholesterol, or letting their weight get to a point where it's hurting their day-to-day lives. Indians are reactive, not proactive about health. But the truth is: our bodies will fall apart if we ignore this long enough.",
+        text: "It's incredible how many of my clients come to me after experiencing health issues - diabetes scares, high LDL cholesterol, or letting their weight get to a point where it's hurting their day-to-day lives. Indians are reactive, not proactive about health. But the truth is: our bodies will fall apart if we ignore this long enough.",
       },
       { type: "h2", text: "So What's the Fix?" },
       {
@@ -134,7 +134,7 @@ const posts: Post[] = [
       },
       {
         type: "p",
-        text: "As an Indian fitness coach, I've made it my goal to change this. We can be fit, educated, and healthy without giving up our culture. But we have to stop being soft. Laziness isn't our identity. It's just a bad habit — and it's time to break it.",
+        text: "As an Indian fitness coach, I've made it my goal to change this. We can be fit, educated, and healthy without giving up our culture. But we have to stop being soft. Laziness isn't our identity. It's just a bad habit - and it's time to break it.",
       },
     ],
   },
@@ -145,7 +145,7 @@ const posts: Post[] = [
     tag: "Training",
     img: PEXELS(3888343),
     description:
-      "Cardio burns calories while you're doing it — but once you stop, your metabolism returns to normal. For many Indians, relying on cardio alone may be making results worse.",
+      "Cardio burns calories while you're doing it - but once you stop, your metabolism returns to normal. For many Indians, relying on cardio alone may be making results worse.",
     body: [
       { type: "h2", text: "The Obsession with Cardio" },
       {
@@ -155,18 +155,18 @@ const posts: Post[] = [
       { type: "h2", text: "Why Cardio Doesn't Work the Way You Think" },
       {
         type: "p",
-        text: "Cardio burns calories while you're doing it — but once you stop, your metabolism goes back to normal. And if your diet doesn't have enough protein, you'll likely burn muscle, not just fat. Less muscle means a slower metabolism and easier fat gain in the future.",
+        text: "Cardio burns calories while you're doing it - but once you stop, your metabolism goes back to normal. And if your diet doesn't have enough protein, you'll likely burn muscle, not just fat. Less muscle means a slower metabolism and easier fat gain in the future.",
       },
       {
         type: "p",
-        text: "Additionally, cardio increases hunger for many people. So even if you burn 300 calories on a run, you might eat 500 more later without realizing it. Most Indian diets are already carb-heavy — pairing that with long cardio sessions and no strength training leads to a skinny-fat look, lower metabolism, constant cravings, and low energy.",
+        text: "Additionally, cardio increases hunger for many people. So even if you burn 300 calories on a run, you might eat 500 more later without realizing it. Most Indian diets are already carb-heavy - pairing that with long cardio sessions and no strength training leads to a skinny-fat look, lower metabolism, constant cravings, and low energy.",
       },
       { type: "h2", text: "What Actually Works to Lose Fat (and Keep It Off)" },
       {
         type: "ul",
         items: [
           "Lift weights 3–4 times per week. Resistance training builds muscle and keeps your metabolism high.",
-          "Focus on daily steps. 7,000–10,000 steps per day improves fat loss, digestion, and energy — and is easier to recover from than cardio.",
+          "Focus on daily steps. 7,000–10,000 steps per day improves fat loss, digestion, and energy - and is easier to recover from than cardio.",
           "Eat more protein. Every Indian meal should have at least one solid protein source: paneer, chicken, eggs, tofu, Greek yogurt, or protein powder.",
           "Fix your diet first. You can't out-train a high-calorie, low-protein diet.",
           "Do some cardio. Yes, cardio is necessary for health, but it shouldn't be your only tool.",
@@ -175,11 +175,11 @@ const posts: Post[] = [
       { type: "h2", text: "Why This Matters for South Asians" },
       {
         type: "p",
-        text: "Indians living in Western countries are already at a disadvantage — sedentary jobs, poor fitness education, and high-carb meals. That's why coaching Indian professionals on how to lose belly fat, build lean muscle, and get stronger without cutting out Indian food is so important.",
+        text: "Indians living in Western countries are already at a disadvantage - sedentary jobs, poor fitness education, and high-carb meals. That's why coaching Indian professionals on how to lose belly fat, build lean muscle, and get stronger without cutting out Indian food is so important.",
       },
       {
         type: "p",
-        text: "Ready to stop spinning your wheels? Let's build you a smarter plan — one that fits your lifestyle, incorporates your culture, and finally gets you results that last.",
+        text: "Ready to stop spinning your wheels? Let's build you a smarter plan - one that fits your lifestyle, incorporates your culture, and finally gets you results that last.",
       },
     ],
   },
@@ -190,16 +190,16 @@ const posts: Post[] = [
     tag: "Nutrition",
     img: PEXELS(6294263),
     description:
-      "Indians living in Western countries face unique dietary challenges around protein. Traditional diets often severely lack sufficient protein — contributing to muscle loss, low energy, and weight gain.",
+      "Indians living in Western countries face unique dietary challenges around protein. Traditional diets often severely lack sufficient protein - contributing to muscle loss, low energy, and weight gain.",
     body: [
       { type: "h2", text: "Why Is Protein So Important?" },
       {
         type: "p",
-        text: "Indians living in the U.S. face unique dietary challenges, especially when it comes to protein. Despite the rich culinary heritage of Indian cuisine, traditional diets often severely lack sufficient protein, contributing to muscle loss, low energy, and weight gain. Protein isn't just for bodybuilders — it's essential for everyone. It supports muscle growth, boosts metabolism, maintains bone density, and helps regulate hormones.",
+        text: "Indians living in the U.S. face unique dietary challenges, especially when it comes to protein. Despite the rich culinary heritage of Indian cuisine, traditional diets often severely lack sufficient protein, contributing to muscle loss, low energy, and weight gain. Protein isn't just for bodybuilders - it's essential for everyone. It supports muscle growth, boosts metabolism, maintains bone density, and helps regulate hormones.",
       },
       {
         type: "p",
-        text: "Yet many Indians overlook protein due to misconceptions, cultural habits, and dietary preferences. Traditional Indian meals emphasize carbohydrates and fats — rice, rotis, curries with minimal protein, and snacks or sweets that dominate dietary intake. Vegetarian diets, common among Indians, often lack adequate protein sources when not balanced correctly.",
+        text: "Yet many Indians overlook protein due to misconceptions, cultural habits, and dietary preferences. Traditional Indian meals emphasize carbohydrates and fats - rice, rotis, curries with minimal protein, and snacks or sweets that dominate dietary intake. Vegetarian diets, common among Indians, often lack adequate protein sources when not balanced correctly.",
       },
       { type: "h2", text: "Common Misconceptions About Protein" },
       {
@@ -216,7 +216,7 @@ const posts: Post[] = [
         items: [
           "Muscle loss: Low protein consumption can lead to muscle wasting, reducing strength and slowing metabolism.",
           "Increased hunger: A diet low in protein often leaves people feeling unsatisfied, prompting overeating.",
-          "Weak immune system: Protein is critical for immune function — insufficient intake compromises your ability to fight infections.",
+          "Weak immune system: Protein is critical for immune function - insufficient intake compromises your ability to fight infections.",
         ],
       },
       { type: "h2", text: "How to Boost Your Protein Intake" },
@@ -231,7 +231,7 @@ const posts: Post[] = [
       { type: "h2", text: "A Balanced Approach" },
       {
         type: "p",
-        text: "Balancing traditional Indian foods with adequate protein intake is entirely achievable. Small adjustments to meals, informed food choices, and consistent effort in protein tracking can dramatically improve your overall health, fitness, and energy levels — without compromising on your favorite Indian dishes.",
+        text: "Balancing traditional Indian foods with adequate protein intake is entirely achievable. Small adjustments to meals, informed food choices, and consistent effort in protein tracking can dramatically improve your overall health, fitness, and energy levels - without compromising on your favorite Indian dishes.",
       },
     ],
   },
@@ -247,29 +247,29 @@ const posts: Post[] = [
       { type: "h2", text: "The Science Behind Habit Formation" },
       {
         type: "p",
-        text: "Research from University College London suggests that, on average, it takes 66 days to form a new habit. However, the time required varies depending on the complexity of the habit. Simple habits can take around 21 days to establish, while more complex habits — such as following a structured fitness plan — typically take closer to 90 days.",
+        text: "Research from University College London suggests that, on average, it takes 66 days to form a new habit. However, the time required varies depending on the complexity of the habit. Simple habits can take around 21 days to establish, while more complex habits - such as following a structured fitness plan - typically take closer to 90 days.",
       },
       { type: "h2", text: "Key Factors in Habit Formation" },
       { type: "h3", text: "1. Environment" },
       {
         type: "p",
-        text: "The environment plays a critical role in habit formation. A strong support system can make the difference between success and failure, particularly when motivation is low. There will inevitably be moments of doubt, and having individuals who encourage consistency can be invaluable. Surround yourself with people who support your goals — whether friends, family, or a professional coach.",
+        text: "The environment plays a critical role in habit formation. A strong support system can make the difference between success and failure, particularly when motivation is low. There will inevitably be moments of doubt, and having individuals who encourage consistency can be invaluable. Surround yourself with people who support your goals - whether friends, family, or a professional coach.",
       },
       { type: "h3", text: "2. Repetition" },
       {
         type: "p",
-        text: "Repetition strengthens neural pathways, making behaviors more automatic over time. Consistency is the foundation of habit formation. Performing an action regularly, even when it's inconvenient, reinforces the behavior and integrates it into daily life. Prioritize consistency over intensity — even small efforts, repeated over time, contribute to long-term success.",
+        text: "Repetition strengthens neural pathways, making behaviors more automatic over time. Consistency is the foundation of habit formation. Performing an action regularly, even when it's inconvenient, reinforces the behavior and integrates it into daily life. Prioritize consistency over intensity - even small efforts, repeated over time, contribute to long-term success.",
       },
       { type: "h3", text: "3. Intrinsic Motivation" },
       {
         type: "p",
-        text: "Habits are more likely to be maintained when they're tied to a deeper sense of purpose. While external rewards like weight loss or muscle gain can be motivating, intrinsic motivation — feeling more energized, stronger, or healthier — plays a more significant role in long-term adherence.",
+        text: "Habits are more likely to be maintained when they're tied to a deeper sense of purpose. While external rewards like weight loss or muscle gain can be motivating, intrinsic motivation - feeling more energized, stronger, or healthier - plays a more significant role in long-term adherence.",
       },
       { type: "h2", text: "Strategies for Effective Habit Building" },
       { type: "h3", text: "Anchor New Habits to Existing Routines" },
       {
         type: "p",
-        text: "Attaching a new habit to an already established routine — known as habit stacking — improves adherence. For example: \"After I finish my morning coffee, I will go for a 30-minute walk.\"",
+        text: "Attaching a new habit to an already established routine - known as habit stacking - improves adherence. For example: \"After I finish my morning coffee, I will go for a 30-minute walk.\"",
       },
       { type: "h3", text: "Start Small and Gradually Increase" },
       {
@@ -295,7 +295,7 @@ const posts: Post[] = [
     tag: "Nutrition",
     img: PEXELS(4198930),
     description:
-      "The Indian diet is full of rich flavours and tradition, but it lacks one crucial element for fitness — protein. Here are the best high-protein Indian foods to help you build muscle while enjoying your favourite dishes.",
+      "The Indian diet is full of rich flavours and tradition, but it lacks one crucial element for fitness - protein. Here are the best high-protein Indian foods to help you build muscle while enjoying your favourite dishes.",
     body: [
       {
         type: "p",
@@ -304,7 +304,7 @@ const posts: Post[] = [
       { type: "h2", text: "Why Indians Need More Protein" },
       {
         type: "p",
-        text: "The typical Indian diet leans towards carb-heavy staples — rice, roti, and dal — overlooking protein-rich options. This imbalance makes it harder for Indians, especially vegetarians, to meet their protein requirements. Many of us miss the concept of 'true protein' sources, leaning instead towards 'carb proteins' and 'fat proteins,' which are fine but won't get us all the protein we need.",
+        text: "The typical Indian diet leans towards carb-heavy staples - rice, roti, and dal - overlooking protein-rich options. This imbalance makes it harder for Indians, especially vegetarians, to meet their protein requirements. Many of us miss the concept of 'true protein' sources, leaning instead towards 'carb proteins' and 'fat proteins,' which are fine but won't get us all the protein we need.",
       },
       { type: "h2", text: "Best High-Protein Foods to Add to Your Indian Diet" },
       { type: "h3", text: "1. Whey Protein" },
@@ -372,7 +372,7 @@ const posts: Post[] = [
       { type: "h2", text: "Overview" },
       {
         type: "p",
-        text: "Indian food is a reflection of our history, struggles, and survival adjustments. For years, our ancestors didn't eat based on modern nutrition science — they ate based on what was available, lasted the longest, and kept them full during times of scarcity. From the famines under British rule to deeply rooted cultural traditions, the way we eat today has been shaped by the generations before us.",
+        text: "Indian food is a reflection of our history, struggles, and survival adjustments. For years, our ancestors didn't eat based on modern nutrition science - they ate based on what was available, lasted the longest, and kept them full during times of scarcity. From the famines under British rule to deeply rooted cultural traditions, the way we eat today has been shaped by the generations before us.",
       },
       {
         type: "p",
@@ -381,16 +381,16 @@ const posts: Post[] = [
       { type: "h2", text: "How Famines Changed Our Diets" },
       {
         type: "p",
-        text: "India has a long history of famines, but the most catastrophic occurred under British rule. The Bengal Famine of 1943 alone killed an estimated 2–3 million people — not because food wasn't available, but because colonial policies diverted supplies elsewhere. These experiences deeply impacted how Indian families view food today.",
+        text: "India has a long history of famines, but the most catastrophic occurred under British rule. The Bengal Famine of 1943 alone killed an estimated 2–3 million people - not because food wasn't available, but because colonial policies diverted supplies elsewhere. These experiences deeply impacted how Indian families view food today.",
       },
       {
         type: "p",
-        text: "For many older generations, the idea of wasting food was looked down upon. This has led to mindless overeating becoming normalized, where feeling 'full' is mistaken for proper nourishment. The obsession with making food as filling as possible is why traditional Indian meals prioritize quantity over quality — the goal was simply to survive.",
+        text: "For many older generations, the idea of wasting food was looked down upon. This has led to mindless overeating becoming normalized, where feeling 'full' is mistaken for proper nourishment. The obsession with making food as filling as possible is why traditional Indian meals prioritize quantity over quality - the goal was simply to survive.",
       },
       { type: "h2", text: "Why Indian Diets Became So Carb-Heavy" },
       {
         type: "p",
-        text: "If you look at a typical Indian meal, you'll notice one thing: it's overwhelmingly carb-dominant. In rural India, farmers and laborers relied on high-carb diets because their physically demanding work required quick energy. However, in today's world — where many people work desk jobs and engage in minimal physical activity — this same high-carb diet leads to fat gain, insulin resistance, and metabolic issues.",
+        text: "If you look at a typical Indian meal, you'll notice one thing: it's overwhelmingly carb-dominant. In rural India, farmers and laborers relied on high-carb diets because their physically demanding work required quick energy. However, in today's world - where many people work desk jobs and engage in minimal physical activity - this same high-carb diet leads to fat gain, insulin resistance, and metabolic issues.",
       },
       {
         type: "p",
@@ -399,12 +399,12 @@ const posts: Post[] = [
       { type: "h2", text: "The Fear of Protein" },
       {
         type: "p",
-        text: "Many Indians, especially older generations, believe myths like 'too much protein damages the kidneys.' These misconceptions come from a time when high-protein diets were rare. These outdated beliefs continue to hold people back from optimizing their diets — instead of prioritizing proteins like paneer, eggs, and chicken, many Indians still believe that carbs should form the majority of their plate.",
+        text: "Many Indians, especially older generations, believe myths like 'too much protein damages the kidneys.' These misconceptions come from a time when high-protein diets were rare. These outdated beliefs continue to hold people back from optimizing their diets - instead of prioritizing proteins like paneer, eggs, and chicken, many Indians still believe that carbs should form the majority of their plate.",
       },
       { type: "h2", text: "How to Adapt the Indian Diet for Modern Health Goals" },
       {
         type: "p",
-        text: "While traditional Indian food is nutritionally diverse, it needs modern adjustments to align with today's fitness and health goals. The good news? You don't have to give up Indian foods — just tweak them for better balance.",
+        text: "While traditional Indian food is nutritionally diverse, it needs modern adjustments to align with today's fitness and health goals. The good news? You don't have to give up Indian foods - just tweak them for better balance.",
       },
       {
         type: "ul",
@@ -417,7 +417,7 @@ const posts: Post[] = [
       { type: "h2", text: "Breaking Generational Diet Cycles" },
       {
         type: "p",
-        text: "The way we eat today is a product of history, survival, and cultural evolution. Our ancestors ate the way they did because they had to — not because it was the best approach for long-term health. But we now live in a time where we can choose better foods, time our meals smarter, and build stronger, healthier bodies without giving up our cultural roots.",
+        text: "The way we eat today is a product of history, survival, and cultural evolution. Our ancestors ate the way they did because they had to - not because it was the best approach for long-term health. But we now live in a time where we can choose better foods, time our meals smarter, and build stronger, healthier bodies without giving up our cultural roots.",
       },
     ],
   },
@@ -448,7 +448,7 @@ const posts: Post[] = [
       {
         type: "ol",
         items: [
-          "Obesity: The abundance of high-carb foods, excessive use of fats, and cultural attitudes toward food — combined with sedentary lifestyles — drive weight gain.",
+          "Obesity: The abundance of high-carb foods, excessive use of fats, and cultural attitudes toward food - combined with sedentary lifestyles - drive weight gain.",
           "Diabetes: Excessive carbohydrate consumption increases the risk of diabetes. Indian Americans have the highest rates of diabetes in the country.",
           "Heart disease: Poor dietary habits and overconsumption of unhealthy fats contribute to high cholesterol levels and cardiovascular disease.",
           "Inflammatory conditions: Regular consumption of sugar, refined flour, and processed oils exacerbates inflammation.",
@@ -479,7 +479,7 @@ const tagColors: Record<string, string> = {
 };
 
 /* ─────────────────────────────────────────────
-   Static params — pre-renders all blog routes
+   Static params - pre-renders all blog routes
 ───────────────────────────────────────────── */
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -544,7 +544,7 @@ function renderSection(section: Section, i: number) {
         <ul key={i} className="mb-5 flex flex-col gap-2">
           {section.items.map((item, j) => (
             <li key={j} className="flex items-start gap-3 text-soil text-base font-light leading-relaxed">
-              <span className="text-clay mt-1 shrink-0">—</span>
+              <span className="text-clay mt-1 shrink-0">-</span>
               {item}
             </li>
           ))}

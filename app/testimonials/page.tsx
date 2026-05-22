@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Client Testimonials | Junoon Coaching",
     description:
-      "Real results from real South Asian clients — 10+ kg fat loss, visible results in 4–6 weeks, and lasting lifestyle change.",
+      "Real results from real South Asian clients - 10+ kg fat loss, visible results in 4–6 weeks, and lasting lifestyle change.",
     images: [{ url: "/images/og-image.webp", width: 1200, height: 630 }],
   },
 };
@@ -25,7 +25,7 @@ const reviews = [
     age: 28,
     short: "Lost over 10 kg",
     review:
-      "Working with Arjav over the last three months has been an absolutely transformative experience. His expertise as a fitness and diet coach is unmatched, and his unwavering support has been key in helping me lose over 10 kg — a goal I had struggled to achieve for a long time. What sets Arjav apart is his personalized approach. He took the time to understand my lifestyle, preferences, and challenges, crafting a diet and exercise plan that was not only effective but also sustainable.",
+      "Working with Arjav over the last three months has been an absolutely transformative experience. His expertise as a fitness and diet coach is unmatched, and his unwavering support has been key in helping me lose over 10 kg - a goal I had struggled to achieve for a long time. What sets Arjav apart is his personalized approach. He took the time to understand my lifestyle, preferences, and challenges, crafting a diet and exercise plan that was not only effective but also sustainable.",
   },
   {
     name: "Varun V",
@@ -46,7 +46,7 @@ const reviews = [
     age: 21,
     short: "Finally in control of his diet",
     review:
-      "Arjav did a great job helping me stick to my diet, which was one of my biggest issues. Rather than completely cutting out things I enjoyed, he showed me how to utilize them so they fit into my diet and so I could still have a good time. He also really helped with making sure I was feeling okay — a lot of the time because of school I overate, and he gave me different strategies I could use to avoid that.",
+      "Arjav did a great job helping me stick to my diet, which was one of my biggest issues. Rather than completely cutting out things I enjoyed, he showed me how to utilize them so they fit into my diet and so I could still have a good time. He also really helped with making sure I was feeling okay - a lot of the time because of school I overate, and he gave me different strategies I could use to avoid that.",
   },
   {
     name: "Ambica N",

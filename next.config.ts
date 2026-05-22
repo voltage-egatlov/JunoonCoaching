@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Remove the X-Powered-By: Next.js header from every response — a free 1-header saving
+  // Remove the X-Powered-By: Next.js header from every response - a free 1-header saving
   poweredByHeader: false,
 
   images: {
     // Serve AVIF first (≈50% smaller than WebP at same quality), fall back to WebP.
-    // Next.js negotiates via Accept header — zero effort for older browsers.
+    // Next.js negotiates via Accept header - zero effort for older browsers.
     formats: ["image/avif", "image/webp"],
 
     // Cache optimised images for 30 days on CDN / browser.
@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
 
   async headers() {
     return [
-      // Security headers on every route — no performance cost, meaningful protection
+      // Security headers on every route - no performance cost, meaningful protection
       {
         source: "/(.*)",
         headers: [
@@ -39,7 +39,7 @@ const nextConfig: NextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         ],
       },
-      // Static image assets are content-addressed by Next.js — safe to cache forever
+      // Static image assets are content-addressed by Next.js - safe to cache forever
       {
         source: "/images/(.*)",
         headers: [

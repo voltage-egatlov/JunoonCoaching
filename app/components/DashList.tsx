@@ -14,13 +14,13 @@ interface DashListProps {
 }
 
 /**
- * A clean unordered list where each item is prefixed by a clay em-dash (—).
+ * A clean unordered list where each item is prefixed by a clay em-dash (-).
  * Used throughout the site for feature lists, bullet points, etc.
  *
  * Usage:
  *   <DashList items={["35+ recipes", "Macro breakdowns", "Gluten free options"]} />
  *
- *   // Light background — use text-soil for higher contrast:
+ *   // Light background - use text-soil for higher contrast:
  *   <DashList items={features} itemClassName="text-sm text-soil font-light" />
  */
 export default function DashList({
@@ -35,7 +35,7 @@ export default function DashList({
         const text = typeof item === "string" ? item : item.text;
         return (
           <li key={i} className={`flex items-start gap-3 ${itemClassName}`}>
-            <span className="text-clay mt-0.5 shrink-0">—</span>
+            <span className="text-clay mt-0.5 shrink-0">-</span>
             {text}
           </li>
         );

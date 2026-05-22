@@ -26,13 +26,13 @@ interface ButtonProps {
 const BASE = "mono-label inline-flex items-center gap-3 text-xs uppercase transition-colors";
 
 const VARIANTS: Record<Variant, string> = {
-  /** Clay fill — works on any background */
+  /** Clay fill - works on any background */
   primary: "bg-clay text-parchment hover:bg-soil",
-  /** Light border + text — for dark (bark/soil) backgrounds */
+  /** Light border + text - for dark (bark/soil) backgrounds */
   ghost: "border border-ivory/60 text-ivory hover:border-clay hover:text-clay",
-  /** Clay border + text — for light (cream/ivory/parchment) backgrounds */
+  /** Clay border + text - for light (cream/ivory/parchment) backgrounds */
   outline: "border border-clay text-clay hover:bg-clay hover:text-parchment",
-  /** Inline text link — no border or fill */
+  /** Inline text link - no border or fill */
   text: "text-clay hover:gap-4",
 };
 

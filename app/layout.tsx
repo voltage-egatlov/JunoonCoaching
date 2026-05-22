@@ -31,7 +31,7 @@ const BASE_URL = "https://junooncoaching.com";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+    default: "Junoon Coaching - Elite Fitness Coaching for South Asians",
     template: "%s | Junoon Coaching",
   },
   description:
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: BASE_URL,
     siteName: "Junoon Coaching",
-    title: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+    title: "Junoon Coaching - Elite Fitness Coaching for South Asians",
     description:
       "Elite online fitness coaching for Indians and South Asians. Lose weight, build muscle, and get healthy without giving up your culture or the foods you love.",
     images: [
@@ -75,13 +75,13 @@ export const metadata: Metadata = {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+        alt: "Junoon Coaching - Elite Fitness Coaching for South Asians",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junoon Coaching — Elite Fitness Coaching for South Asians",
+    title: "Junoon Coaching - Elite Fitness Coaching for South Asians",
     description:
       "Elite online fitness coaching for Indians and South Asians. Lose weight, build muscle, and get healthy without giving up your culture or the foods you love.",
     images: ["/images/og-image.webp"],
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
   },
 };
 
-/* JSON-LD structured data — LocalBusiness + Organization */
+/* JSON-LD structured data - LocalBusiness + Organization */
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
